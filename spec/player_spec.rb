@@ -6,7 +6,7 @@ describe Player do
   end
 
   it 'gets the chooise of the player ' do
-    subject.choose(:rock)
-    expect(subject.choise).to eq(:rock)
+    subject.choose("rock")
+    expect(subject.choice).to eq("rock")
   end
 end
